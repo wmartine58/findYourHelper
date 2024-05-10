@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item (click)="addDirecction()">
+    <ion-label class="normal">
+      Ubicación
+    </ion-label>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" color="danger" name="location"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-item>
+</ion-content>
